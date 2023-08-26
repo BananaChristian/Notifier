@@ -8,7 +8,7 @@ covidStats=None
 try:
     covidStats=requests.get("https://corona-rest-api.herokuapp.com/Api/uganda")
 except:
-    print('Nigga u lack  data')
+    print('Bro u lack  data')
     
 if (covidStats != None):
     jsonData = covidStats.json()['Success'] 
